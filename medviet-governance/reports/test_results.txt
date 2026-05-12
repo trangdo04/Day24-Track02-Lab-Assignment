@@ -1,0 +1,17 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-8.3.5, pluggy-1.6.0 -- C:\Users\Windows\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.13.7', 'Platform': 'Windows-11-10.0.22621-SP0', 'Packages': {'pytest': '8.3.5', 'pluggy': '1.6.0'}, 'Plugins': {'anyio': '4.9.0', 'Faker': '40.15.0', 'langsmith': '0.8.0', 'opik': '1.7.28', 'asyncio': '1.1.0', 'cov': '6.2.1', 'html': '4.1.1', 'metadata': '3.1.1', 'mock': '3.14.1', 'typeguard': '4.5.1'}, 'JAVA_HOME': 'C:\\Users\\Windows\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.8.101-hotspot\\'}
+rootdir: D:\VinUni_AIThucChien\Day24-Track02-Lab-Assignment\medviet-governance
+plugins: anyio-4.9.0, Faker-40.15.0, langsmith-0.8.0, opik-1.7.28, asyncio-1.1.0, cov-6.2.1, html-4.1.1, metadata-3.1.1, mock-3.14.1, typeguard-4.5.1
+asyncio: mode=Mode.STRICT, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collecting ... collected 6 items
+
+tests/test_pii.py::TestPIIDetection::test_cccd_detected PASSED           [ 16%]
+tests/test_pii.py::TestPIIDetection::test_phone_detected PASSED          [ 33%]
+tests/test_pii.py::TestPIIDetection::test_email_detected PASSED          [ 50%]
+tests/test_pii.py::TestPIIDetection::test_detection_rate_above_95_percent PASSED [ 66%]
+tests/test_pii.py::TestAnonymization::test_pii_not_in_output PASSED      [ 83%]
+tests/test_pii.py::TestAnonymization::test_non_pii_columns_unchanged PASSED [100%]
+
+============================= 6 passed in 12.19s ==============================
